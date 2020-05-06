@@ -1,0 +1,136 @@
+.wrapper{
+    margin: 0 auto;
+    padding-top: 105px;
+}
+
+.wrap_cocktail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item_header{
+    padding-top: 10px;
+    color: var(--light-orange);
+}
+
+.wrap_cocktail_item{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.item_name{
+    width: 40%;
+    color: var(--off-white);
+}
+
+.item_quantity{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.item_quantity_container{
+    text-align: center;
+    color: var(--dark-orange);
+    margin: 5px;
+    margin: 0 100px 0 0;
+}
+
+.item_quantity_price{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--off-white);
+    margin-bottom: 2px;
+    margin-left: -3.5px;
+}
+
+.item_quantity_counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    margin-bottom: 5px;
+    background-color: var(--dark-orange);
+    color: var(--off-white);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.decrement{
+    background-color: transparent;
+    color: var(--off-white);
+    border: 1px solid var(--fark-orange);
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+    
+}
+
+.increament{
+    background-color: var(--dark-orange);
+    color: var(--off-white);
+    border: 1px solid var(--fark-orange);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px
+}
+
+.increament:focus,
+.decrement:focus{
+    outline: none;
+    border: none;
+}
+
+.item_quantity_name{
+    font-weight: bold;
+    color: var(--off-white);
+}
+
+.payment{
+    display: flex;
+    justify-content: center;
+}
+
+.payment_button{
+    cursor: pointer;
+    position: fixed;
+    bottom: -1%;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 150px;
+    border: 1px solid var(--dark-orange);
+    border-radius: 25px;
+    font-size: var(--m-size);
+    background-color: var(--dark-orange);
+    color: var(--off-white);
+}
+
+.pay{
+    width: 40%;
+}
+
+.payment_amount{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+}
+
+.payment_details{
+    font-size: var(--s-size);
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: -15px;
+}
+

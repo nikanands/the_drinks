@@ -1,0 +1,31 @@
+.wrap_navbar{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+.navbar{
+    display: flex;
+    margin: 0;
+}
+
+.navlink{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.navitem{
+    text-decoration: none;
+    color: var(--off-white);
+    font-size: var(--m-size);
+    padding: 10px 15px 0 15px;
+    align-self: baseline;
+}
+
+.nav_search{
+    height: 25px;
+    margin-right: 50px;
+    cursor: pointer;
+}

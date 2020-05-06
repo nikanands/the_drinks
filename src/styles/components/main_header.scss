@@ -1,0 +1,27 @@
+.wrap_main_header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+
+.title{ 
+    margin: 0;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--dark-orange);
+    cursor: default;
+}
+
+.scrolled_main_header{
+    background-color: var(--light-orange);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

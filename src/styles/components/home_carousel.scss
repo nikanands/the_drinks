@@ -1,0 +1,29 @@
+.image{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    height: 100vh;
+}
+
+.slick-dots{
+    height: 0;
+    bottom: 1px !important;
+    top: 90% !important;
+  }
+  
+  .slick-dots li button,
+  .slick-dots li button:before,
+  .slick-dots li{
+    width: 10px !important;
+    height: 10px !important;
+  }
+  
+  .slick-dots li button:before{
+    font-size: 10px !important;
+    width: 10px !important;
+    height: 10px !important;
+  }
+  
+  .slick-arrow{
+    display: none !important;
+  }

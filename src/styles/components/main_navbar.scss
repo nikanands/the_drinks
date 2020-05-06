@@ -1,0 +1,30 @@
+.wrap_main_navbar{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    position: relative;
+}
+
+.main_navbar{
+    display: flex;
+    margin: 0;
+}
+
+.main_navlink{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.main_navitem{
+    text-decoration: none;
+    color: var(--dark-orange);
+    font-size: var(--m-size);
+    padding: 10px 15px 0 15px;
+    align-self: baseline;
+}
+
+.nav_contacts{
+    margin-right: 50px;
+}
